@@ -14,7 +14,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
   2. Rebind the alias `nvim` in `.zshrc` or equivalent:
   ```bash
-  alias nvim='./nvim-linux64/bin/nvim'
+  alias nvim='~/nvim-linux64/bin/nvim'
   ```
 
   3. Clone this repo and rename it:
