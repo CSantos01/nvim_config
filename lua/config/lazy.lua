@@ -56,3 +56,6 @@ vim.keymap.set("n", "<C-p>", builtin.find_files, {})
 vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
+
+-- lua
+vim.g.copilot_node_command = "~/.nvm/versions/node/v22.9.0/bin/node"

@@ -14,12 +14,17 @@ return {
     name = "catppuccin",
     opts = { style = "latte" },
   },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+  },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-macchiato",
+      colorscheme = "cyberdream",
     },
   },
 }
