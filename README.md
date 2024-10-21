@@ -21,3 +21,10 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   ```bash
   git clone https://github.com/CSantos01/nvim_config.git ~/.config/nvim
   ```
+
+  ## Troubleshooting
+
+  ### Copilot
+
+  To use copilot, you need to install [Node.js](https://nodejs.org/en/download/package-manager).
+  If an error about the version of the node being too old appears, you may want to use [nvm](https://github.com/nvm-sh/nvm) and specifiy in `lua/config/lazy.lua` the location of the latest version you are using (latest line of the document).
