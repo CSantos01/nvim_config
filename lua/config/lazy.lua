@@ -59,3 +59,4 @@ vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 
 -- lua
 vim.g.copilot_node_command = "~/.nvm/versions/node/v22.9.0/bin/node"
+vim.g.copilot_assume_mapped = true
